@@ -115,7 +115,8 @@ class Trainer:
         self.save_per_updates = save_per_updates
         self.keep_last_n_checkpoints = keep_last_n_checkpoints
         self.last_per_updates = default(last_per_updates, save_per_updates)
-        self.checkpoint_path = default(checkpoint_path, "ckpts/test_f5-tts")
+        # self.checkpoint_path = default(checkpoint_path, "ckpts/test_f5-tts")
+        self.checkpoint_path = default(checkpoint_path, "ckpts/F5TTS_Base")
 
         self.batch_size_per_gpu = batch_size_per_gpu
         self.batch_size_type = batch_size_type
