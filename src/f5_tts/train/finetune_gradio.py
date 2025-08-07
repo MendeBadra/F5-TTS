@@ -1204,6 +1204,7 @@ def infer(
             file_wave=f.name,
             seed=seed,
         )
+        print(f"temp generated audio filename: {f.name}")
         return f.name, tts_api.device, str(tts_api.seed)
 
 

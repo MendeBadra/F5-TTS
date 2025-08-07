@@ -40,7 +40,7 @@ model:
     n_mel_channels: 100
     hop_length: 256
     win_length: 1024
-    n_fft: 1024
+    n_fft: 
     mel_spec_type: vocos  # vocos | bigvgan
   vocoder:
     is_local: False  # use local offline ckpt or not
